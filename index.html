@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+
+  <body>
+    <main>
+      <section class="col result">
+        <h1>Your Result</h1>
+        <div class="score">
+          <div class="result-container">
+            <p class="result-score">76</p>
+            <p class="result-100">of 100</p>
+          </div>
+        </div>
+        <p class="result-status">Great</p>
+        <p class="result-description">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+      <section class="col summary">
+        <h1>Summary</h1>
+        <div class="category red">
+          <img src="assets/images/icon-reaction.svg" />
+          <p class="category-label red">Reaction</p>
+          <p class="category-score">80 <span class="grey">/ 100</span></p>
+        </div>
+        <div class="category yellow">
+          <img src="assets/images/icon-memory.svg" />
+          <p class="category-label">Memory</p>
+          <p class="category-score">92 <span class="grey">/ 100</span></p>
+        </div>
+        <div class="category green">
+          <img src="assets/images/icon-verbal.svg" />
+          <p class="category-label">Verbal</p>
+          <p class="category-score">61 <span class="grey">/ 100</span></p>
+        </div>
+        <div class="category blue">
+          <img src="assets/images/icon-visual.svg" />
+          <p class="category-label">Visual</p>
+          <p class="category-score">72 <span class="grey">/ 100</span></p>
+        </div>
+        <button class="btn">Continue</button>
+      </section>
+    </main>
+  </body>
+</html>
